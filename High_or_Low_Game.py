@@ -4,8 +4,8 @@ import random
 
 point=0
 game_over=False
-#Generate the random number
 
+#Generate the random number
 def random_number():
     return random.randint(0,8) # i know the lenth of the list
 
@@ -14,6 +14,7 @@ def is_correct(A,B):
         return "B"
     else:
         return "A"
+
 
 
 
